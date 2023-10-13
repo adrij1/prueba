@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>enlazar css</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Bienvenido al Parque Ecoturístico Paraiso</h1>
+            <div class="hero-content">  
+                <img src="images/Logo.jpg" alt="Bienvenida al Parque Ecoturistico Paraiso">
+                <p>Explora nuestros increíbles productos y servicios.</p>
+                <a href="#productos" class="btn">Descubre más</a>
+            </div>
+        </section>
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="producto">
+                <img src="images/boscocho.jpg" alt="Producto 1">
+                <h3>Preparaciones a base de frutos Amazonicos</h3>
+                <p>Deliciosos dulces, biscochos, helados y demas hechos con frutos amazonicos</p>
+            </div>
+            <div class="producto">
+                <img src="images/copo azu.jpg" alt="Producto 2">
+                <h3>frutos amazonicos y sus plantulas</h3>
+                <p>frutos amazónicos como el copo azu, arazá, azai, canangucha y sus respectivas plantulas</p>
+            </div>
+        </section>
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicio">
+                <img src="images/cabaña.jpg" alt="Servicio 1">
+                <h3>Noche en cabaña</h3>
+                <p>noches magicas al lado del rio en cabañas rusticas</p>
+            </div>
+            <div class="servicio">
+                <img src="images/puente.jpg" alt="Servicio 2">
+                <h3>Senderismo</h3>
+                <p>caminata para conocer lo ofrecido por la madre tierra
+                </p>
+            </div>
+        </section>
+    </main>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Contáctanos para obtener más información!</p>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <footer>
+            <div class="footer-container">
+                <div class="contact-info">
+                    <h3>Contacto</h3>
+                    <p>Dirección: Puerto Asis,Putumayo V/ Nariño-Nariño</p>
+                    <p>Teléfono: (123) 456-7890</p>
+                    <p>Email: parqueparaiso10@gmail.com</p>
+                </div>
+                <div class="horario">
+                    <h3>Horario de Atención</h3>
+                    <p>Sabados, Domingos y Festivos: 9:00 AM - 6:00 PM</p>
+                    <p>Alquiler de cabañas al contacto</p>
+                    
+                </div>
+                <div class="redes-sociales">
+                    <h3>Síguenos en Redes Sociales</h3>
+                    <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <p class="derechos"> Parque Ecoturistico Paraiso. Todos los derechos reservados.</p>
+        </footer>
+    </footer>
+</body>
+</html>
